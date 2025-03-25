@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tailwind Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">My Website</a>
+            <div class="flex items-center space-x-4">
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline text-yellow-300">Home</a></li>
+                    <li><a href="#" class="hover:underline">About</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+                <div id="authLinks" class="flex space-x-4">
+                    <a href="#" class="bg-white text-blue-500 px-4 py-2 rounded-lg hover:bg-gray-200">Login</a>
+                    <a href="#" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home Page Body -->
+    <div class="container mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
+        <h1 class="text-3xl font-bold text-center mb-4">Welcome to My Website</h1>
+        <p class="text-gray-700 text-center">This is a simple home page built with Tailwind CSS. Here, you can add more content about your website and its purpose.</p>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center p-4 mt-10">
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
